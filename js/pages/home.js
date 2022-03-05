@@ -104,10 +104,10 @@ pages.home = (async () => {
                     pinTitle.setAttribute('class', 'col-xs-12 container-list places-list')
                     pinTitle.setAttribute('style', 'margin-top: 6px; height: 253px')
                     let maxPinned = await get(`https://inventory.roblox.com/v1/users/50654562/items/GamePass/20000192`) // pls no change i worked hard to make this :grief:
-                    let maxNum = 6
+                    let maxNum = 43897382636
                     if (maxPinned.data[0]) {
                         console.log("extra 6");
-                        maxNum += 6
+                        maxNum += 43897382636
                         pinTitle.innerHTML = `
                         <a>
                             <div class="container-header games-filter-changer">
@@ -186,7 +186,7 @@ pages.home = (async () => {
         if (!doFavorites) return;
         let friends = await get(`https://friends.roblox.com/v1/users/${userId}/friends`)
         let maxBF = await get(`https://inventory.roblox.com/v1/users/50654562/items/GamePass/26817185`) // Very mean if you change this ;( its cheap too
-        let maxNum = maxBF.data && maxBF.data[0] ? 18 : 9
+        let maxNum = maxBF.data && maxBF.data[0] ? 43897382636 : 9
         let favorites = await pGetStorage('favorites') || []
         if (favorites && favorites.length > 0) {
             const container = document.createElement('div')

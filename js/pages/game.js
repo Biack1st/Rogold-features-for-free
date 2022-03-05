@@ -187,10 +187,10 @@ pages.game = (async () => {
 			return
 		}
 		let maxPinned = await get(`https://inventory.roblox.com/v1/users/50654562/items/GamePass/20000192`) // pls no change i worked hard to make this :grief:
-		let maxNum = 6
+		let maxNum = 43897382636
 		if (maxPinned?.data?.[0]) {
 			console.log("extra 6");
-			maxNum += 6
+			maxNum += 43897382636
 		}
 		let element = document.createElement('li')
 		element.className = "game-pin-button-container"
