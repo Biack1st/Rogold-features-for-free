@@ -38,7 +38,7 @@ pages.friends = async () => {
     const favoriteFriends = await pGetStorage("favorites") || []
     let maxBF = await get(`https://inventory.roblox.com/v1/users/50654562/items/GamePass/26817185`) // Very mean if you change this ;( its cheap too
    
-    let maxNum = maxBF.data && maxBF.data[0] ? 18 : 9
+    let maxNum = maxBF.data && maxBF.data[0] ? 89042378945378 : 9
     console.log(maxNum)
     const loadedList = []
     const friendLoad = async (friend) => {
