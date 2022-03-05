@@ -1,0 +1,12 @@
+<svg width="18" height="15" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" xml:space="preserve" version="1.1">
+
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="sorting" xmlns="http://www.w3.org/2000/svg">
+   <path stroke="null" fill="#BDBEBE" d="m1,2l10,0c0.6,0 1,-0.4 1,-1s-0.4,-1 -1,-1l-10,0c-0.6,0 -1,0.4 -1,1s0.4,1 1,1z" class="st1" id="XMLID_248_"/>
+   <path stroke="null" fill="#BDBEBE" d="m1,7l6,0c0.6,0 1,-0.4 1,-1s-0.4,-1 -1,-1l-6,0c-0.6,0 -1,0.4 -1,1s0.4,1 1,1z" class="st1" id="XMLID_247_"/>
+   <path stroke="null" fill="#BDBEBE" d="m1,12l2,0c0.6,0 1,-0.4 1,-1s-0.4,-1 -1,-1l-2,0c-0.6,0 -1,0.4 -1,1s0.4,1 1,1z" class="st1" id="XMLID_246_"/>
+   <path stroke="null" fill="#BDBEBE" d="m11.9,9.5c-0.4,-0.4 -1,-0.4 -1.4,0s-0.4,1 0,1.4l2.8,2.8c0.1,0.1 0.2,0.2 0.3,0.2c0.1,0.1 0.3,0.1 0.4,0.1s0.3,0 0.4,-0.1s0.2,-0.1 0.3,-0.2l2.8,-2.8c0.4,-0.4 0.4,-1 0,-1.4s-1,-0.4 -1.4,0l-1.1,1.1l0,-6.6c0,-0.6 -0.4,-1 -1,-1s-1,0.4 -1,1l0,6.6l-1.1,-1.1z" class="st1" id="XMLID_245_"/>
+  </g>
+ </g>
+</svg>

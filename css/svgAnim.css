@@ -1,0 +1,44 @@
+
+svg{
+    position:absolute;
+    top:50%;
+    left:50%;
+    max-width:128px;
+    max-height:128px;
+  }
+  .magnify{
+    fill:#f8f8f8;
+    animation:search 1s infinite ease;
+  }
+  .doc{
+    fill:#d8d8d2;
+    animation:flyby 1s infinite ease;
+  }
+  
+  
+  @keyframes search {
+    0%{
+      transform:translate(40px, 40px) scale(.6);
+    }
+    50%{
+      transform:translate(20px, 20px) scale(.6);
+    }
+    100%{
+      transform:translate(40px, 40px) scale(.6);
+    }
+  }
+  
+  @keyframes flyby {
+    0%{
+      transform:translate(-20px, 20px) scale(.2);
+      opacity:0
+    }
+    50%{
+      transform:translate(30px, 20px) scale(.5);
+      opacity:1
+    }
+    100%{
+      transform:translate(100px, 20px) scale(.2);
+      opacity:0
+    }
+  }

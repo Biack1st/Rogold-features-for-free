@@ -1,0 +1,201 @@
+
+.light-theme {
+    --background-color: #f2f4f5;
+    --text-color: #393b3d;
+    --secondary-color: #fff;
+}
+.dark-theme {
+    --background-color: #232527;
+    --text-color: white;
+    --secondary-color: #393b3d;
+}
+html {
+    background-color: var(--background-color) !important;
+}
+td.menu-area a.tab-item, .Message, .Title {
+    color: var(--text-color)!important;
+}
+td#menu-area a#tab-item {
+    color: var(--text-color)!important;
+}
+td.menu-area a.tab-item-selected, td.menu-area a.tab-item:hover, .verticaltab.selected {
+    color: var(--text-color)!important;
+    background-color: var(--secondary-color) !important;
+    border: 0px !important;
+}
+
+.clearfix {
+    background: transparent !important;
+    border: transparent !important;
+}
+
+.selectedAssetTypeFilter, .assetTypeFilter:hover, .verticaltab:hover {
+    background-color: var(--secondary-color) !important;
+}
+body form[action="/build/verifyupload"] {
+    background-color: var(--background-color);
+}
+#Body a, #Body div, #Body label, #Body span {
+    color: var(--text-color)!important;
+}
+#MyCreationsTab.tab-active, #GroupCreationsTab.tab-active, #LibraryTab.tab-active, #DeveloperExchangeTab.tab-active, #PayoutTab.tab-active, .tab-container+div>div {
+    background-color: var(--background-color) !important;
+    border: 0px !important;
+}
+
+.tab-container div {
+    background-color: var(--secondary-color)!important;
+    border: 0px !important;
+}
+.btn-control {
+    background-color: var(--secondary-color) !important;
+    background-image: none!important;
+    border: 1px solid #777 !important;
+}
+.gear-button-wrapper {
+    border: 0px!important;
+    background: none !important;
+}
+.gear-button {
+    background-color: var(--secondary-color) !important;
+    border: 1px solid #777!important;
+}
+#RepositionBody, #MasterContainer, #footer-container, #Body, #BodyWrapper {
+    background-color: var(--background-color) !important;
+}
+
+h2, h1, h3 {
+    color: var(--text-color) !important;
+}
+td.content-area, .divider-left, .right-content, ul, #StudioWidget {
+    border: 0px !important;
+}
+#build-dropdown-menu {
+    background-color: var(--secondary-color) !important;
+}
+.SmallCatalogItemView, .CatalogItemInner, .SmallInner {
+    background: transparent !important;
+}
+.CatalogItemInner .roblox-item-image {
+    width: auto;
+}
+.SmallCatalogItemView:hover, .CatalogItemInner {
+    background: var(--secondary-color) !important;
+}
+/* .SmallCatalogItemView {
+    overflow: hidden;
+} */
+.original-image {
+    border-color: transparent !important;
+}
+.separator {
+    border-top: 1px solid #656668 !important;
+    background-color: none !important;
+    height: 0px !important;
+}
+.menu-area, .divider-right {
+    border: 0px !important;
+}
+.checkbox-label, .SmallCatalogItemView>div>div>div>span {
+    color: var(--text-color)!important;
+}
+.CatalogItemInner .CatalogItemName {
+    font-size: 10px !important;
+    max-height: none !important;
+}
+.widget-name, .headline-banner, .table-header th, .blank-box {
+    background-color: transparent !important;
+}
+#StudioWidget {
+    display: contents !important;
+}
+#StudioWidget li {
+    overflow: hidden;
+}
+input[type="file"]:not([id="iconImageFile"]) {
+    display: none !important;
+}
+div[id="developerProductsTab"], div[data-maindiv] {
+    overflow: hidden;
+}
+label[for="file"], label[for="thumbnailImageFile"], #upload-button, .btn-medium, .btn-small, .btn-control-sm, #language-switcher {
+    background-color: transparent !important;
+    border-color: #bdbebe !important;
+    color: var(--text-color) !important;
+    border-radius: 8px !important;
+    border: 1px solid #b8b8b8 !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    height: auto !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    padding: 9px !important;
+    font-size: 16px !important;
+    line-height: 100% !important;
+    background-image: none !important;
+}
+body * {
+    color: var(--text-color);
+}
+#name, .text-box, .form-select, .form-control, #SelectedGroupId, select, textarea, #devex-widget, input[type="text"], .modal-dialog .modal-content, .ConfirmationModal, div.GenericModalBody>div, .library-autocomplete-items div, .btr-versionHistory .version-card {
+    /* height: 28px; */
+    background-color: var(--secondary-color) !important;
+    border-color: #bdbebe !important;
+    color: var(--text-color) !important;
+    border-radius: 8px !important;
+}
+#upload-iframe {
+    height: fit-content;
+}
+.alert-info {
+    background-color: #f68802 !important;
+}
+.status-confirm {
+    background-color: #456890 !important;
+}
+#categoriesForKeyword {
+    background-color: transparent !important;
+    border: none !important;
+}
+#categoriesForKeyword:focus {
+    background-color: var(--secondary-color) !important;
+    border: none !important;
+}
+
+/* #MyCreationsTabLink, #GroupCreationsTabLink, #LibraryTabLink, #DevExTabLink, #PayoutTabLink {
+    background-color: transparent !important;
+    border-color: #bdbebe !important;
+    color: var(--text-color) !important;
+    border-radius: 8px !important;
+    border: 1px solid #b8b8b8;
+    cursor: pointer !important;
+    display: inline-block !important;
+    height: auto !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding: 9px !important;
+    font-size: 16px !important;
+    margin: 2px !important;
+    line-height: 100% !important;
+    background-image: none !important;
+    max-width: 110px !important;
+}
+
+#DevelopTabs {
+    display: table-caption !important;
+}
+
+#Body {
+    display: -webkit-inline-box !important;
+}
+#MyCreationsTabLink.tab-active, #GroupCreationsTabLink.tab-active, #LibraryTabLink.tab-active, #DevExTabLink.tab-active, #PayoutTabLink.tab-active {
+    border: 2px solid #b8b8b8 !important;
+    margin-bottom: 5px !important;
+} */
+#CreatePlace, #CashoutButton a {
+    background-image: none !important;
+}
+body.rg-bg {
+    --background-color: none !important;
+}

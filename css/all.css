@@ -1,0 +1,336 @@
+/*
+    RoGold
+
+    Coding and design by alexop1000 (AlexOp).
+    Contact: https://rogold.me/invite
+
+    Copyright (C) alexop1000 
+	All rights reserved.
+*/
+
+
+/* -----------Scroll bar----------- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+:-moz-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+::-moz-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+::-moz-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+::-moz-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1688px) {
+  body[keepopen="true"] .container-main {
+    margin-left: 175px;
+  }
+}
+
+/* -----------Themes----------- */
+.gold-theme {
+  --header-color: #daa520;
+  --navigation-color: #cba135;
+  --content-color: #cba135;
+}
+.green-theme {
+  --header-color: #2e8b57;
+  --navigation-color: #8fbc8f;
+  --content-color: #8fbc8f;
+}
+.dark-gray-theme {
+  --header-color: #585858;
+  --navigation-color: #585858;
+  --content-color: #585858;
+}
+.dark-green-theme {
+  --header-color: #007800;
+  --navigation-color: #00aa00;
+  --content-color: #00aa00;
+}
+.light-blue-theme {
+  --header-color: #000080;
+  --navigation-color: #0000cd;
+  --content-color: #0000cd;
+}
+.dark-red-theme {
+  --header-color: #8b0000;
+  --navigation-color: #8b0000;
+  --content-color: #8b0000;
+}
+.yellow-theme {
+  --header-color: #d4bd00;
+  --navigation-color: #ede522;
+  --content-color: #ede522;
+}
+.light-gray-theme {
+  --header-color: #c0c0c0;
+  --navigation-color: #c0c0c0;
+  --content-color: #c0c0c0;
+}
+.dark-yellow-theme {
+  --header-color: #808080;
+  --navigation-color: #c0c0c0;
+  --content-color: #c0c0c0;
+}
+.blue-theme {
+  --header-color: #0076a3;
+  --navigation-color: #0076a3;
+  --content-color: #0076a3;
+}
+.light-green-theme {
+  --header-color: #006633;
+  --navigation-color: #009966;
+  --content-color: #009966;
+}
+.pink-light-theme {
+  --header-color: #e7e7e7;
+  --navigation-color: #e7e7e7;
+  --content-color: #e7e7e7;
+}
+.dark-blue-theme {
+  --header-color: #2c8bbd;
+  --navigation-color: #548bbd;
+  --content-color: #548bbd;
+}
+.custom-theme {
+  --header-color: #585858;
+  --navigation-color: #585858;
+  --content-color: #585858;
+}
+/* Apply the styling */
+body[rg-touched="true"] {
+  background-color: var(--content-color) !important;
+}
+body[rg-touched="true"] .content:not(.transparent) {
+  background-color: var(--content-color) !important;
+}
+body[rg-touched="true"] .rbx-header {
+  /* background: linear-gradient(0deg, var(--navigation-color) 0%, var(--content-color) 35%, var(--header-color) 100%) !important; */
+  background-color: var(--header-color) !important;
+  /* border-color: darken(var(--header-color), 15%) !important; */
+}
+body[rg-touched="true"] .rbx-left-col {
+  background-color: var(--navigation-color) !important;
+}
+
+/* Streamer Mode */
+/* body[streamer="false"] .account-field-displayname {
+  display: initial !important;
+}
+.account-field-displayname {
+  display: none !important;
+}
+body[streamer="false"] .account-field-username {
+  display: initial !important;
+}
+.account-field-username {
+  display: none !important;
+}
+.account-field-phone {
+  display: none !important;
+}
+body[streamer="false"] .account-field-phone {
+  display: initial !important;
+}
+body[streamer="false"] .account-field-email {
+  display: initial !important;
+}
+.account-field-email {
+  display: none !important;
+}
+body[streamer="false"] div[ng-repeat="part in populateAccount.orderedBirthdayParts.parts"] {
+  display: initial !important;
+}
+div[ng-repeat="part in populateAccount.orderedBirthdayParts.parts"] {
+  display: none !important;
+}
+
+body[streamer="false"] #nav-robux-amount {
+  display: initial !important;
+}
+#nav-robux-amount {
+  display: none !important;
+}
+body[streamer="false"] .age-bracket-label-username {
+  display: initial !important;
+}
+.age-bracket-label-username {
+  display: none !important;
+}
+body[streamer="false"] .user-name-container {
+  display: initial !important;
+}
+.user-name-container {
+  display: none !important;
+}
+body[streamer="false"] #navigation div.font-header-2 {
+  display: initial !important;
+}
+#navigation div.font-header-2 {
+  display: none !important;
+}
+body[streamer="false"] .notification {
+  visibility: visible !important;
+}
+.notification {
+  visibility: hidden !important;
+}
+body[streamer="false"] .dynamic-width-item {
+  display: initial !important;
+}
+.dynamic-width-item {
+  display: none !important;
+}
+body[streamer="false"] .friend-name {
+  visibility: visible !important;
+}
+.friend-name {
+  visibility: hidden !important;
+}
+.text-label.place-name {
+  visibility: hidden !important;
+}
+body[streamer="false"] .text-label.place-name {
+  visibility: visible !important;
+}
+.interaction-item[ng-click="goToChat()"] {
+  display: none !important;
+}
+body[streamer="false"] .interaction-item[ng-click="goToChat()"] {
+  display: initial !important;
+}
+.text-link.friend-link, .text-link.friend-link:link, .text-link.friend-link:hover {
+  text-decoration: none !important;
+}
+body[streamer="false"] .text-link.friend-link, body[streamer="false"] .text-link.friend-link:link, body[streamer="false"] .text-link.friend-link:hover {
+  text-decoration: initial !important;
+}
+
+.profile-name {
+  visibility: hidden !important;
+}
+body[streamer="false"] .profile-name {
+  visibility: visible !important;
+}
+body[streamer="true"] .profile-name:after {
+  content: "Streamer" !important;
+  visibility: visible !important;
+  display: block !important;
+  position: absolute !important;
+}
+body[streamer="true"] .profile-name {
+  line-height: 0;
+}
+
+.profile-display-name {
+  visibility: hidden !important;
+}
+body[streamer="false"] .profile-display-name {
+  visibility: visible !important;
+}
+body[streamer="true"] .profile-display-name:after {
+  content: "@Streamer" !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+body[streamer="true"] .profile-display-name {
+  line-height: 0;
+} */
+
+/* Streamer Mode */
+body[streamer="true"] #nav-robux-amount {
+  display: none !important;
+}
+body[streamer="true"] .age-bracket-label-username {
+  display: none !important;
+}
+body[streamer="true"] .user-name-container {
+  display: none !important;
+}
+body[streamer="true"] div.font-header-2 {
+  display: none !important;
+}
+body[streamer="true"] .notification {
+  display: none !important;
+}
+body[streamer="true"] .dynamic-width-item {
+  display: none !important;
+}
+body[streamer="true"] .friend-name {
+  display: none !important;
+}
+body[streamer="true"] .text-label.place-name {
+  display: none !important;
+}
+body[streamer="true"] .interaction-item[ng-click="goToChat()"] {
+  display: none !important;
+}
+body[streamer="true"] .text-link.friend-link, body[streamer="true"] .text-link.friend-link:link, body[streamer="true"] .text-link.friend-link:hover {
+  text-decoration: none !important;
+}
+body[streamer="true"] .profile-display-name {
+  visibility: hidden !important;
+  line-height: 0;
+}
+body[streamer="true"] .profile-display-name:after {
+  content: "@Streamer" !important;
+  visibility: visible !important;
+  display: block !important;
+}
+body[streamer="true"] .profile-name {
+  visibility: hidden !important;
+  line-height: 0;
+}
+body[streamer="true"] .profile-name:after {
+  content: "Streamer" !important;
+  visibility: visible !important;
+  display: block !important;
+  position: absolute !important;
+}
+
+body[streamer="true"] .account-field-phone {
+  display: none !important;
+}
+body[streamer="true"] .account-field-email {
+  display: none !important;
+}
+body[streamer="true"] div[ng-repeat="part in populateAccount.orderedBirthdayParts.parts"] {
+  display: none !important;
+}
+body[streamer="true"] .account-field-displayname {
+  display: none !important;
+}
+body[streamer="true"] .account-field-username {
+  display: none !important;
+}
+:root {
+  --tc-color: white;
+}
+body[tc="true"] * {
+  color: var(--tc-color) !important;
+}
