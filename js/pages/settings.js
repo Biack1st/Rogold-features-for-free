@@ -607,7 +607,7 @@ pages.settings = (async () => {
                         if (!hasCreator) {
                             const TCH = document.getElementById('Theme Creator-holder').children[5]
                             TCH.style.opacity = 0.6
-                            getLabel("Get Access To Custom Themes!", 'https://www.roblox.com/game-pass/2912889898/Theme-Creator-Custom', document.getElementById('Theme Creator-holder'))
+                            getLabel("Get Access To Custom Themes!", 'https://www.roblox.com/game-pass/24036164/Theme-Creator-Custom', document.getElementById('Theme Creator-holder'))
                         }
                     }, 100)
                 }, 100)
