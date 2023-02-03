@@ -1,0 +1,58 @@
+{
+	"appName": {
+		"message": "RoGold - Level Up Roblox",
+		"description": "This is the extension name."
+	},
+	"appDesc": {
+		"message": "O noua experiență pe Roblox pentru tine",
+		"description": "This is the extension description."
+	},
+	"appMessage": {
+		"message": "Ține minte, aste este o extension; Lucruri sunt posibile atâta timp cât Roblox permite. Lucrurile pot sa nu m-ai functioneze deoarece Roblox schimba lucruri sau din alte motive.",
+		"description": "This is a small explainer on the settings page."
+	},
+	"settingsInfo": {
+		"message": "Informații",
+		"description": "This is the info button on the settings page."
+	},
+	"settingsBasic": {
+		"message": "Principal",
+		"description": "This is the basic button on the settings page."
+	},
+	"settingsFriends": {
+		"message": "Prietenii",
+		"description": "This is the friends button on the settings page."
+	},
+	"settingsCatalog": {
+		"message": "Catalog",
+		"description": "This is the catalog button on the settings page."
+	},
+	"settingsProfiles": {
+		"message": "Profile",
+		"description": "This is the profiles button on the settings page."
+	},
+	"settingsGames": {
+		"message": "Jocuri",
+		"description": "This is the games button on the settings page."
+	},
+	"settingsCurrency": {
+		"message": "Moneda",
+		"description": "This is the currency button on the settings page."
+	},
+	"settingsDevelopment": {
+		"message": "Development",
+		"description": "This is the development button on the settings page."
+	},
+	"settingsExperimental": {
+		"message": "Experimental",
+		"description": "This is the experimental button on the settings page."
+	},
+	"bestFriends": {
+		"message": "Cei Mai Buni Prieteni",
+		"description": "Best friends text on home page."
+	},
+	"pinnedGames": {
+		"message": "Pinuri",
+		"description": "Pinned games text on home page."
+	}
+}

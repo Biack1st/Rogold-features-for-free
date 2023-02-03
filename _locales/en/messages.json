@@ -1,0 +1,58 @@
+{
+    "appName": {
+        "message": "RoGold - Level Up Roblox",
+        "description": "This is the extension name."
+    },
+	"appDesc": {
+        "message": "Your new and improved Roblox experience",
+        "description": "This is the extension description."
+    },
+    "appMessage": {
+        "message": "Remember, this is an extension; things are only possible as long as Roblox allows it. Things may break anytime due to Roblox's changes or other reasons.",
+        "description": "This is a small explainer on the settings page."
+    },
+    "settingsInfo": {
+        "message": "Info",
+        "description": "This is the info button on the settings page."
+    },
+    "settingsBasic": {
+        "message": "Basic",
+        "description": "This is the basic button on the settings page."
+    },
+    "settingsFriends": {
+        "message": "Friends",
+        "description": "This is the friends button on the settings page."
+    },
+    "settingsCatalog": {
+        "message": "Catalog",
+        "description": "This is the catalog button on the settings page."
+    },
+    "settingsProfiles": {
+        "message": "Profiles",
+        "description": "This is the profiles button on the settings page."
+    },
+    "settingsGames": {
+        "message": "Games",
+        "description": "This is the games button on the settings page."
+    },
+    "settingsCurrency": {
+        "message": "Currency",
+        "description": "This is the currency button on the settings page."
+    },
+    "settingsDevelopment": {
+        "message": "Development",
+        "description": "This is the development button on the settings page."
+    },
+    "settingsExperimental": {
+        "message": "Experimental",
+        "description": "This is the experimental button on the settings page."
+    },
+    "bestFriends": {
+        "message": "Best Friends",
+        "description": "Best friends text on home page."
+    },
+    "pinnedGames": {
+        "message": "Pinned",
+        "description": "Pinned games text on home page."
+    }
+}

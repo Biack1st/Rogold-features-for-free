@@ -1,0 +1,58 @@
+{
+    "appName": {
+        "message": "RoGold - Antas ng Roblox",
+        "description": "This is the extension name."
+    },
+	"appDesc": {
+        "message": "Ang iyong bago at pinabuting karanasan sa Roblox",
+        "description": "This is the extension description."
+    },
+    "appMessage": {
+        "message": "Tandaan, ito ay isang extension; Posible lamang ang mga bagay hangga't pinapayagan ito ng Roblox. Ang mga bagay ay maaaring masira anumang oras dahil sa mga pagbabago ng Roblox o iba pang mga kadahilanan.",
+        "description": "This is a small explainer on the settings page."
+    },
+    "settingsInfo": {
+        "message": "Impormasyon",
+        "description": "This is the info button on the settings page."
+    },
+    "settingsBasic": {
+        "message": "Pangunahing",
+        "description": "This is the basic button on the settings page."
+    },
+    "settingsFriends": {
+        "message": "Mga kaibigan",
+        "description": "This is the friends button on the settings page."
+    },
+    "settingsCatalog": {
+        "message": "Catalog",
+        "description": "This is the catalog button on the settings page."
+    },
+    "settingsProfiles": {
+        "message": "Mga profile",
+        "description": "This is the profiles button on the settings page."
+    },
+    "settingsGames": {
+        "message": "Spil",
+        "description": "This is the games button on the settings page."
+    },
+    "settingsCurrency": {
+        "message": "Pera",
+        "description": "This is the currency button on the settings page."
+    },
+    "settingsDevelopment": {
+        "message": "Kaunlaran",
+        "description": "This is the development button on the settings page."
+    },
+    "settingsExperimental": {
+        "message": "Eksperimental",
+        "description": "This is the experimental button on the settings page."
+    },
+    "bestFriends": {
+        "message": "Matalik na kaibigan",
+        "description": "Best friends text on home page."
+    },
+    "pinnedGames": {
+        "message": "Naka -pin na mga laro",
+        "description": "Pinned games text on home page."
+    }
+}

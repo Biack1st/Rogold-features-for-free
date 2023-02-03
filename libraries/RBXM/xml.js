@@ -1,11 +1,9 @@
 /*
     RoGold
-
-    Coding and design by alexop1000 (AlexOp).
-    Contact: https://rogold.me/invite
-
-    Copyright (C) alexop1000 
-	All rights reserved.
+    Coding and design by Alrovi Aps.
+    Contact: contact@alrovi.com
+    Copyright (C) Alrovi Aps
+    All rights reserved.
 */
 const parseXML = (xml) => {
     const xmlDoc = new DOMParser().parseFromString(xml, "text/xml").documentElement

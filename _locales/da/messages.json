@@ -1,0 +1,58 @@
+{
+    "appName": {
+        "message": "RoGold - Level Up Roblox",
+        "description": "This is the extension name."
+    },
+	"appDesc": {
+        "message": "Din nye og forbedrede Roblox oplevelse",
+        "description": "This is the extension description."
+    },
+    "appMessage": {
+        "message": "Husk, dette er en udvidelse; ting er kun muligt, så længe Roblox tillader det. Ting kan gå i stykker når som helst på grund af Roblox' ændringer eller af andre årsager.",
+        "description": "This is a small explainer on the settings page."
+    },
+    "settingsInfo": {
+        "message": "Info",
+        "description": "This is the info button on the settings page."
+    },
+    "settingsBasic": {
+        "message": "Basale",
+        "description": "This is the basic button on the settings page."
+    },
+    "settingsFriends": {
+        "message": "Venner",
+        "description": "This is the friends button on the settings page."
+    },
+    "settingsCatalog": {
+        "message": "Katalog",
+        "description": "This is the catalog button on the settings page."
+    },
+    "settingsProfiles": {
+        "message": "Profiler",
+        "description": "This is the profiles button on the settings page."
+    },
+    "settingsGames": {
+        "message": "Spil",
+        "description": "This is the games button on the settings page."
+    },
+    "settingsCurrency": {
+        "message": "Møntfod",
+        "description": "This is the currency button on the settings page."
+    },
+    "settingsDevelopment": {
+        "message": "Udvikling",
+        "description": "This is the development button on the settings page."
+    },
+    "settingsExperimental": {
+        "message": "Eksperimentalt",
+        "description": "This is the experimental button on the settings page."
+    },
+    "bestFriends": {
+        "message": "Bedste Venner",
+        "description": "Best friends text on home page."
+    },
+    "pinnedGames": {
+        "message": "Fastgjorte Spil",
+        "description": "Pinned games text on home page."
+    }
+}

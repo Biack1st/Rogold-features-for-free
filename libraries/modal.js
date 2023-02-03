@@ -1,18 +1,15 @@
 /*
     RoGold
-    Coding and design by alexop1000 (AlexOp).
-    Contact: https://rogold.me/invite
-    Copyright (C) alexop1000 
-	All rights reserved.
+    Coding and design by Alrovi Aps.
+    Contact: contact@alrovi.com
+    Copyright (C) Alrovi Aps
+    All rights reserved.
 */
 
 class Modal {
     constructor(id, title, content, footer, isHtml, customModal) {
-        if (document.getElementById(id)) return;
+        if (document.getElementById(id)) return document.getElementById(id);
         this.id = id
-        this.title = title
-        this.content = content
-        this.footer = footer
 
         this.modal = document.createElement('div')
         this.modal.setAttribute('role', 'dialog')
@@ -44,12 +41,38 @@ class Modal {
         const confirm = document.getElementById(id+'-confirm-btn')
         const decline = document.getElementById(id+'-cancel-btn')
         confirm?.addEventListener?.('click', () => {
+            if (!this.callback) return;
             this.modal.style.display = 'none'
             this.callback()
         })
         decline?.addEventListener?.('click', () => {
             this.modal.style.display = 'none'
         })
+
+        this.title = title
+        this.content = content
+        this.footer = footer
+    }
+
+    /**
+     * @param {string} text
+     */
+    set title(text) {
+        this.modal.querySelector('.modal-title').innerHTML = text
+    }
+    
+    /**
+     * @param {string} text
+     */
+    set content(text) {
+        this.modal.querySelector('.modal-body').innerHTML = text
+    }
+
+    /**
+     * @param {string} text
+     */
+    set footer(text) {
+        this.modal.querySelector('.text-footer').innerHTML = text
     }
 
     show(content, footer, hideOk) {

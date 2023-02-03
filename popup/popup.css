@@ -1,16 +1,8 @@
-.theme-light {
+:root {
     /* Light mode */
-    --primary-color: #393b3d;
-    --background-color: #ffffff;
-    --seperator-color: rgb(94 94 94);
-    --icon: url("/icons/rg_yellow_icon_128x128.png")
-}
-
-.theme-dark {
-    --primary-color: #ffffff;
-    --background-color: #393b3d;
-    --seperator-color: rgb(172, 172, 172);
-    --icon: url("/icons/grey_48x48.png")
+    --primary-color: #fff;
+    --background-color: #393B3D;
+    --icon: url("/icons/grey_128x128.png")
 }
 
 span.holder {
@@ -23,7 +15,7 @@ body {
     color: var(--primary-color);
     background-color: var(--background-color);
     min-width: 257px;
-    min-height: 250px;
+    min-height: 200px;
     overflow-x: hidden;
     font-family: HCo Gotham SSm, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
 }
@@ -126,7 +118,7 @@ footer {
     -webkit-transition: 0.4s;
     transition: 0.4s;
     box-shadow: 0 0px 15px #2020203d;
-    background: white url('../icons/grey_128x128.png');
+    background: white url('../images/iconrounded.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px 24px;
@@ -144,7 +136,7 @@ input:checked+.slider:before {
     -webkit-transform: translateX(24px);
     -ms-transform: translateX(24px);
     transform: translateX(24px);
-    background: white url('../icons/rg_yellow_icon_128x128.png');
+    background: white url('../images/iconrounded.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px 24px;

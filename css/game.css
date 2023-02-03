@@ -16,6 +16,11 @@
         width: calc(((100% - 180px) / 2) - 1px) !important;
     }
 }
+@media (max-width: 991px) {
+    .favorite-follow-vote-share .game-pin-button-container, .game-favorite-button-container[id="rogold"], .game-follow-button-container[id="rogold"] {
+        width: auto !important;
+    }
+}
 .game-badges-list .badge-row .badge-stats-container li, game-badges-list .badge-row .badge-stats-container li {
     margin: 0 0 6px !important;
     width: 25% !important;

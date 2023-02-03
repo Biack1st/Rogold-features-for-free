@@ -1,0 +1,58 @@
+{
+	"appName": {
+		"message": "RoGold - Tingkatkan Roblox",
+		"description": "This is the extension name."
+	},
+	"appDesc": {
+		"message": "Pengalaman Robloxmu yang baru dan lebih baik",
+		"description": "This is the extension description."
+	},
+	"appMessage": {
+		"message": "Ingatlah, ini sebuah extensi; hal-hal apapun hanya bisa berfungsi selama Roblox membolehkannya. Hal-hal tersebut mungkin tidak berfungsi lagi kapanpun waktu karena perubahan dari Roblox atau lain-lain.",
+		"description": "This is a small explainer on the settings page."
+	},
+	"settingsInfo": {
+		"message": "Info",
+		"description": "This is the info button on the settings page."
+	},
+	"settingsBasic": {
+		"message": "Dasar",
+		"description": "This is the basic button on the settings page."
+	},
+	"settingsFriends": {
+		"message": "Teman",
+		"description": "This is the friends button on the settings page."
+	},
+	"settingsCatalog": {
+		"message": "Katalog",
+		"description": "This is the catalog button on the settings page."
+	},
+	"settingsProfiles": {
+		"message": "Profil",
+		"description": "This is the profiles button on the settings page."
+	},
+	"settingsGames": {
+		"message": "Permainan",
+		"description": "This is the games button on the settings page."
+	},
+	"settingsCurrency": {
+		"message": "Mata Uang",
+		"description": "This is the currency button on the settings page."
+	},
+	"settingsDevelopment": {
+		"message": "Pengembangan",
+		"description": "This is the development button on the settings page."
+	},
+	"settingsExperimental": {
+		"message": "Eksperimental",
+		"description": "This is the experimental button on the settings page."
+	},
+	"bestFriends": {
+		"message": "Sahabat",
+		"description": "Best friends text on home page."
+	},
+	"pinnedGames": {
+		"message": "Disematkan",
+		"description": "Pinned games text on home page."
+	}
+}

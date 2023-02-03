@@ -1,0 +1,15 @@
+[{
+    "id": 1,
+    "priority": 2,
+    "action": {
+        "type": "modifyHeaders",
+        "responseHeaders": [
+            { 
+                "header": "content-security-policy", 
+                "operation": "set", 
+                "value": "report-uri https://metrics.roblox.com/v1/csp/report?type=enforce; upgrade-insecure-requests; script-src 'self' 'unsafe-inline' *.evidon.com *.gigya.com *.google-analytics.com *.ns1p.net adservice.google.com cdn.arkoselabs.com connect.facebook.net funcaptcha.com js.rbxcdn.com long.open.weixin.qq.com midas.gtimg.cn radar.cedexis.com res.wx.qq.com roblox-api.arkoselabs.com roblox-load-generator-configuration.s3.us-east-2.amazonaws.com s.ytimg.com sb.scorecardresearch.com static.rbxcdn.com www.google.com www.gstatic.com www.youtube.com h.online-metrix.net request.eprotect.vantivcnp.com request.eprotect.vantivpostlive.com *.googletagmanager.com *.googleadservices.com googleads.g.doubleclick.net cdn.veriff.me lightstep.com; img-src https: data:;"
+            }
+        ],
+        "condition": { "urlFilter": "roblox.com", "resourceType": ["main_frame", "sub_frame"] }
+    }
+}]

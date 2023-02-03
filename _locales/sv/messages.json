@@ -1,0 +1,54 @@
+{
+	"appDesc": {
+		"message": "Din nya och förbättrade Roblox experience",
+		"description": "This is the extension description."
+	},
+	"appMessage": {
+		"message": "Kom ihåg, det här är en extension; saker är bara möjlig så länge Roblox tillåter det. Saker kan gå sönder när som helst på grund av Roblox's uppdateringar eller andra skulder.",
+		"description": "This is a small explainer on the settings page."
+	},
+	"settingsInfo": {
+		"message": "Info",
+		"description": "This is the info button on the settings page."
+	},
+	"settingsBasic": {
+		"message": "Grundläggande",
+		"description": "This is the basic button on the settings page."
+	},
+	"settingsFriends": {
+		"message": "Vänner",
+		"description": "This is the friends button on the settings page."
+	},
+	"settingsCatalog": {
+		"message": "Katalog",
+		"description": "This is the catalog button on the settings page."
+	},
+	"settingsProfiles": {
+		"message": "Profiler",
+		"description": "This is the profiles button on the settings page."
+	},
+	"settingsGames": {
+		"message": "Spel",
+		"description": "This is the games button on the settings page."
+	},
+	"settingsCurrency": {
+		"message": "Valuta",
+		"description": "This is the currency button on the settings page."
+	},
+	"settingsDevelopment": {
+		"message": "Development",
+		"description": "This is the development button on the settings page."
+	},
+	"settingsExperimental": {
+		"message": "Experimentell",
+		"description": "This is the experimental button on the settings page."
+	},
+	"bestFriends": {
+		"message": "Bästa Vänner",
+		"description": "Best friends text on home page."
+	},
+	"pinnedGames": {
+		"message": "Fästa Spel",
+		"description": "Pinned games text on home page."
+	}
+}

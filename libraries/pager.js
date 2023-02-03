@@ -1,11 +1,9 @@
 /*
     RoGold
-
-    Coding and design by alexop1000 (AlexOp).
-    Contact: https://rogold.me/invite
-
-    Copyright (C) alexop1000 
-	All rights reserved.
+    Coding and design by Alrovi Aps.
+    Contact: contact@alrovi.com
+    Copyright (C) Alrovi Aps
+    All rights reserved.
 */
 class Pager {
     constructor(options) {
@@ -31,7 +29,7 @@ class Pager {
             pager.setAttribute('class', 'pager-holder')
             pager.setAttribute('style', 'width: 100%; text-align: center; box-sizing: border-box; display: inline-block;')
             pager.innerHTML = `
-                <ul class="pager" style="box-sizing: inherit;display: inline-block;margin: 0;width: auto;">
+                <ul class="pager" style="box-sizing: inherit;display: flex;margin: 0;width: auto;align-items: center;justify-content:center;">
                     <li class="pager-prev"><a><span class="icon-left"></span></a></li>
                     <li class="pager-mid" style="padding-right: 8px;">
                         Page <input class="pager-cur form-control input-field" type="text value" style="width: auto;text-align: center; display: initial;"> of <span class="pager-total"></span>
