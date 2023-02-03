@@ -12,4 +12,5 @@ Extract the file and once it's over with, go to chrome://extensions/ and select 
 
 When you do press "Load unpacked" at the top and select the extracted folder! ![image](https://user-images.githubusercontent.com/98064246/216500286-49177dfd-c432-4d4d-9d8a-431e006ea470.png)
 
-and now you have rogold for free installed! enjoy.
+Now go for where its the rogold extension with "(FREE)"![image](https://user-images.githubusercontent.com/98064246/216500698-ac80e4d0-eace-4685-87a5-a5d31d053fd9.png)
+Enable it, and there you go! Make sure to disable the other rogold and there u go. Feel free to star this repo if you like this. Cya
